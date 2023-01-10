@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400&family=Epilogue:wght@500;700&family=League+Spartan:wght@700&family=Poppins:wght@500&family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(235, 16%, 14%);
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.stars{
+    position: absolute;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+}
+.socials{
+    position: absolute;
+    bottom: 30px;
+    z-index: 999;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.socials ul{
+    display: flex;
+}
+.socials ul li{
+    margin: 0 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.countdown div{
+    margin: 10px;
+}
+.countdown p{
+    padding: 20px;
+    background-color: hsl(236, 21%, 26%);  
+    border-radius: 5px;  
+    color: hsl(345, 95%, 68%);
+    font-size: 32px;
+}
+.countdown h3{
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.container h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
